@@ -1,14 +1,63 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </head>
-<body>
-    
 
-    <script src="/assets/javascript/logic.js"></script>
+<body>
+    <div class="parallax" id="scroll1">
+        <a href="https://www.linkedin.com/in/ccastro303/" target="_blank"><img src="./assets/images/linkedIn.png"
+                id="linkedIn" /></a>
+        <div id="title">
+            <h1 id="name">Chris Castro</h1>
+            <h3 id="title">Full-Stack Web Developer</h3>
+        </div>
+        <p id="location">Located in Southern Denver</p>
+    </div>
+    <div class="divider" id="biography">
+        <h3>Biography</h3>
+        <p>Random sentences about me. This will be a bit longer but not that long</p>
+    </div>
+
+    <div class="parallax" id="scroll2">
+        <div id="empty-space"></div>
+        <div id="slide-show">
+            <div>
+                <p id="slide">( 1 / 4 )</p>
+                <img src="https://amansardana.files.wordpress.com/2017/02/simple-routing-policy.png"
+                    style="width: 100%; height: 100%;" id="img" />
+                <a href="#" class="previous round" id="previous">&#8249;</a>
+                <a href="#" class="next round" id="next">&#8250;</a>
+            </div>
+            <div>
+                <table id="spec-techs">
+                    
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="divider" id="technologies">
+        <h3>Proficient Technologies: </h3>
+        <div class="container">
+            <img class="tech" src="./assets/images/HTML5.png" />
+            <img class="tech" src="./assets/images/css3.png" />
+            <img class="tech" src="./assets/images/javascript.png" />
+            <img class="tech" src="./assets/images/react.png" />
+            <img class="tech" src="./assets/images/mongo.png" />
+            <img class="tech" src="./assets/images/sql.png" />
+            <img class="tech" src="./assets/images/nodejs.png" />
+            <img class="tech" src="./assets/images/python.png" />
+            <img class="tech" src="./assets/images/php.png" />
+            <img class="tech" src="./assets/images/git.png" />
+        </div>
+    </div>
+    <script src="./assets/javascript/logic.js"></script>
 </body>
+
 </html>
