@@ -12,7 +12,7 @@ div {
 .parallax { 
 
     /* Full height */
-    height: 98%; 
+    height: 99vh; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -22,8 +22,7 @@ div {
 }
 
 #scroll1 {
-    background-image: url("../images/background1.jpg");
-    opacity: 0.9;
+    background-image: url("../images/background-1.jpeg");
 }   
 
 #linkedIn {
@@ -33,60 +32,68 @@ div {
 }
 
 div#title {
-    width: 100%;
+    width: 95%;
     height: 100%;
     position: absolute;
     top: 15%;
-    text-align: center;
-    color: teal;
+    left: 5%;
+    display: none;
 }
 
 #name {
     font-size: 100px;
 }
 
-h3#title {
+h3 {
     font-size: 40px;
+}
+
+#desc {
+    font-size: 40px;
+    margin-left: 4%;
 }
 
 #location {
     position: absolute;
-    bottom: 0;
-    right: 0;
-    color: teal;
-    padding-right: 15px;
+    bottom: 2%;
+    right: 1%;
 }
 
 .divider {
     padding: 50px 80px;
-    background-color: teal;
+    background-image: radial-gradient(darkred 2% , black 130%);
 }
 
 #biography {
     color: silver;
+    text-align: center;
+    height: 35vh
+}
+
+#info {
+    width: 60vw;
+    margin-left: 13vw;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: 0.8px;
 }
 
 #scroll2 {
-    background-image: url("../images/background2.jpg");
-    opacity: 0.9;
+    background-image: url("../images/background-2.jpeg");
+    color: whitesmoke;
     display: flex;
-    justify-content: space-around;
-}
-
-#empty-space {
-    width: 45%;
+    height: 80vh;
 }
 
 #slide-show {
-    margin: 0;
-    padding: 0;
-    width: 45%;
-    height: 350px;
-    /* color: darkorchid; */
+    padding: 5vh 5vw;
+    width: 45vw;
+    height: 30vh;
 }
 
 #slide {
-    color: silver;
     text-decoration: none;
     text-align: center;
 }
@@ -94,7 +101,6 @@ h3#title {
   
 .previous {
     background-color: teal;
-    color: silver;
 }
 
 #previous {
@@ -116,6 +122,7 @@ h3#title {
     border-radius: 50%;
     text-decoration: none;
     padding: 8px 16px;
+    margin-left: 13vw;
 }
 
 .round:hover {
@@ -125,20 +132,19 @@ h3#title {
 
 #project-link {
     text-decoration: none;
-    color: silver;
+    color: whitesmoke;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
 }
 
 #project-link:visited {
-    color: silver;
+    color: whitesmoke;
     text-decoration: none;
 }
 
 #project-link:hover {
-    color: teal;
-}
-
-#img {
-
+    color: darkgoldenrod;
 }
 
 .tech {
@@ -150,5 +156,24 @@ h3#title {
 #technologies {
     text-align: center;
     font-size: 35px;
-    color: silver;
+    color: whitesmoke;
+}
+
+#tech-talk {
+    width: 45vw;
+}
+
+#thought-bubble {
+    width: 100%;
+    margin-top: 3%;
+}
+
+#spec-tech {
+    width: 95%;
+    margin-top: 15vh;
+    font-size: 17px;
+    letter-spacing: 1.2px;
+    font-family: sans-serif;
+    line-height: 150%;
+    color: white;
 }
