@@ -100,7 +100,8 @@ h3 {
 
   
 .previous {
-    background-color: teal;
+    background-color: darkred;
+    color: whitesmoke
 }
 
 #previous {
@@ -109,8 +110,8 @@ h3 {
 }
   
 .next {
-    background-color: teal;
-    color: silver;
+    background-color: darkred;
+    color: whitesmoke;
 }
 
 #next {
@@ -127,7 +128,7 @@ h3 {
 
 .round:hover {
     background-color: silver;
-    color: teal;
+    color: darkred;
 }
 
 #project-link {
@@ -176,4 +177,83 @@ h3 {
     font-family: sans-serif;
     line-height: 150%;
     color: white;
+}
+
+@media screen and (max-width: 1025px) {
+    #biography {
+      height: 50vh;
+    }
+    #scroll2 {
+        height: 100vh;
+    }
+}
+  
+@media screen and (max-width: 768px) {
+    #info {
+      width: 85vw;
+      margin: 0 auto;
+      padding: 0 auto;
+    }
+  
+    #scroll2 {
+        height: 115vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+    }
+
+    #slide-show {
+        width: 60vw;
+    }
+
+    #spec-tech {
+        width: 95vw;
+        line-height: 125%;
+        margin-top: 30vh;
+        margin-left: 2vw;
+    }
+
+    .divider {
+        padding: 5vh 2vw 2vh 2vw;
+    }
+}
+  
+@media screen and (max-width:426px) {
+    .divide {
+        padding: 4vh 1vw 1vh 1vw;
+    }
+    
+    div#title {
+        top: 0%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #biography {
+        height: 80vh;
+    }
+
+    #info {
+        width: 75vw;
+    }
+
+    #slide-show {
+        width: 80vw;
+    }
+
+    #spec-tech {
+        margin-top: 20vh;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    #biography {
+        height: 110vh;
+    }
+
+    #scroll2 {
+        height: 130vh;
+    }
 }
